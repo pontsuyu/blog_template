@@ -1,40 +1,57 @@
 baseurl = "https://pontsuyu.github.io/blog_template/"
-title = "Blog Template"
+title = "Ghostwriter example"
 theme = "ghostwriter"
 languageCode = "en-us"
-copyright = "Hiroyuki Tsuyuzaki"
-# disqusShortname = "XXX"
-# googleAnalytics = "XXX"
-publishDir = "docs"
-hasCJKLanguage = true
+copyright = "My Name"
+disqusShortname = "XXX"
+googleAnalytics = "XXX"
 
 [Author]
-    name = "Tsuyupon"
-    # profile = "https://google.com/+XXX"
+    name = "My Name"
+    profile = "https://google.com/+XXX"
 
 [Taxonomies]
     tag = "tags"
 
 [Params]
     intro = true
-    headline = "Blog Template"
-    description = "blog template description"
-    github = "https://github.com/pontsuyu"
-    # gitlab = "https://gitlab.com/XXX"
-    # linkedin = "https://linkedin.com/in/XXX/"
-    # gplus = "https://google.com/+XXX"
-    twitter = "https://twitter.com/ponsa__ku"
-    # stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
-    email = "wu.pe.s2.47@gmail.com"
+    headline = "Ghostwriter example"
+    description = "Ghostwriter example description"
+    github = "https://github.com/XXX"
+    gitlab = "https://gitlab.com/XXX"
+    linkedin = "https://linkedin.com/in/XXX/"
+    gplus = "https://google.com/+XXX"
+    twitter = "https://twitter.com/XXX"
+    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
+    email = "XXX@example.com"
     opengraph = true
     shareTwitter = true
-    # shareFacebook = true
-    # shareGooglePlus = true
-    # shareLinkedIn = false
-    dateFormat = "Tue, Jan 2, 2018"
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
     highlightJsUrl = ""
     highlightJsLocalUrl = ""
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"
 
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4

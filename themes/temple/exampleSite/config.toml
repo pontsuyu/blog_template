@@ -1,12 +1,8 @@
-baseURL = "https://pontsuyu.github.io/blog_template/"
+baseURL = "https://example.com/"
 title = "Temple"
 theme = "temple"
 # If not set, it will not appear. Otherwise it will show below your footer links
 copyright = "(c) You -- 2017"
-relativeurls = true
-publishDir = "docs"
-hasCJKLanguage = true
-languageCode = "ja-jp"
 
 [params]
   # Enables syntax highlighting

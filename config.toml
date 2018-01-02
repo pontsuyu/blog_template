@@ -5,7 +5,10 @@ title = "Your Site Name"
 copyright = "Your Site copyright"
 canonifyurls = true
 paginate = 3
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+relativeurls = true
+publishDir = "docs"
+hasCJKLanguage = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 googleAnalytics = "Yout Google Analytics ID"
 

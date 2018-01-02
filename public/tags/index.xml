@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Temple</title>
+    <title>Tags on Your Site Name</title>
     <link>/blog_template/tags/</link>
-    <description>Recent content in Tags on Temple</description>
+    <description>Recent content in Tags on Your Site Name</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>your@email.com (Temple Theme)</managingEditor>
-    <webMaster>your@email.com (Temple Theme)</webMaster>
-    <copyright>(c) You -- 2017</copyright>
+    <language>ja-jp</language>
+    <copyright>Your Site copyright</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog_template/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +16,7 @@
       <title>Development</title>
       <link>/blog_template/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <author>your@email.com (Temple Theme)</author>
+      
       <guid>/blog_template/tags/development/</guid>
       <description></description>
     </item>
@@ -26,7 +25,7 @@
       <title>Go</title>
       <link>/blog_template/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <author>your@email.com (Temple Theme)</author>
+      
       <guid>/blog_template/tags/go/</guid>
       <description></description>
     </item>
@@ -35,7 +34,7 @@
       <title>Golang</title>
       <link>/blog_template/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <author>your@email.com (Temple Theme)</author>
+      
       <guid>/blog_template/tags/golang/</guid>
       <description></description>
     </item>
@@ -44,8 +43,26 @@
       <title>Hugo</title>
       <link>/blog_template/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <author>your@email.com (Temple Theme)</author>
+      
       <guid>/blog_template/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Templates</title>
+      <link>/blog_template/tags/templates/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_template/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Themes</title>
+      <link>/blog_template/tags/themes/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_template/tags/themes/</guid>
       <description></description>
     </item>
     

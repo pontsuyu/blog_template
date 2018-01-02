@@ -1,30 +1,36 @@
-baseURL = "https://pontsuyu.github.io/blog_template/"
-title = "Temple"
-theme = "temple"
-# If not set, it will not appear. Otherwise it will show below your footer links
-copyright = "(c) You -- 2017"
-relativeurls = true
-publishDir = "docs"
-hasCJKLanguage = true
+baseurl = "https://pontsuyu.github.io/blog_template/"
+theme = "hugo-gentoo-theme"
 languageCode = "ja-jp"
+title = "Your Site Name"
+copyright = "Your Site copyright"
+canonifyurls = true
+paginate = 3
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+
+googleAnalytics = "Yout Google Analytics ID"
 
 [params]
-  # Enables syntax highlighting
-  highlight = true 
-  # Supports highlighting for languages not included in the original pack
-  # See https://highlightjs.org/download/
-  hjslangs = ["go", "elixir"]
-  # Enables the topmenu, which pulls from categories
-  topmenu = "categories"
+  description = "Your site description"
+  author = "Your Name"
 
-# Builds a list page for each category given
 [taxonomies]
-  tag = "tags"
   category = "categories"
+  tag = "tags"
 
-[author]
-  name = "Temple Theme"
-  github = "github"
-  email = "your@email.com"
-  gaid = "Your Google Analytics ID"
-  twitter = "twitterID"
+[[menu.global]]
+    name = "Categories"
+    url = "/categories/"
+
+[[menu.global]]
+    name = "Tags"
+    url = "/tags/"
+
+[[menu.footer]]
+    name = "About"
+    url = "/page/about/"
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"

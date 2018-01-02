@@ -1,0 +1,40 @@
+baseurl = "https://pontsuyu.github.io/maakun/"
+title = "Blog Template"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Hiroyuki Tsuyuzaki"
+# disqusShortname = "XXX"
+# googleAnalytics = "XXX"
+publishDir = "docs"
+hasCJKLanguage = true
+
+[Author]
+    name = "Tsuyupon"
+    # profile = "https://google.com/+XXX"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Blog Template"
+    description = "blog template description"
+    github = "https://github.com/pontsuyu"
+    # gitlab = "https://gitlab.com/XXX"
+    # linkedin = "https://linkedin.com/in/XXX/"
+    # gplus = "https://google.com/+XXX"
+    twitter = "https://twitter.com/ponsa__ku"
+    # stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
+    email = "wu.pe.s2.47@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    # shareFacebook = true
+    # shareGooglePlus = true
+    # shareLinkedIn = false
+    dateFormat = "Tue, Jan 2, 2018"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+

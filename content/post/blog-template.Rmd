@@ -1,0 +1,9 @@
+---
+title: Blog Template
+author: Hiroyuki Tsuyuzaki
+date: '2018-01-02'
+slug: blog-template
+categories: ["R","RStudio","blogdown"]
+tags: []
+---
+

@@ -1,4 +1,4 @@
-baseurl = "https://pontsuyu.github.io/maakun/"
+baseurl = "https://pontsuyu.github.io/blog_template/"
 title = "Blog Template"
 theme = "ghostwriter"
 languageCode = "en-us"

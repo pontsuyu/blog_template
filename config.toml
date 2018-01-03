@@ -1,8 +1,8 @@
 baseurl = "https://pontsuyu.github.io/blog_template/"
 theme = "hugo-gentoo-theme"
 languageCode = "ja-jp"
-title = "Your Site Name"
-copyright = "Your Site copyright"
+title = "Blog Template"
+# copyright = "Your Site copyright"
 canonifyurls = true
 paginate = 3
 relativeurls = true
@@ -10,11 +10,9 @@ publishDir = "docs"
 hasCJKLanguage = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-googleAnalytics = "Yout Google Analytics ID"
-
 [params]
-  description = "Your site description"
-  author = "Your Name"
+  description = "Blog Template"
+  author = "Hiroyuki"
 
 [taxonomies]
   category = "categories"
